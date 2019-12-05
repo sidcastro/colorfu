@@ -2,7 +2,7 @@
   "name": "color_fu",
   "private": true,
   "engines": {
-    "node": ">=6.0.0",
+    "node": "10.x",
     "yarn": ">=0.25.2"
   },
   "dependencies": {
