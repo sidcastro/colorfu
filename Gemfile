@@ -38,6 +38,9 @@ group :development, :test do
   gem "factory_bot_rails"
   gem "faker"
   gem 'database_cleaner'
+  gem 'pry'
+  gem 'pry-rails'
+  gem 'pry-nav'
 end
 
 group :development do
@@ -53,7 +56,6 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'pry-rails', group: [:development, :test]
 gem 'jquery-rails'
 gem 'capybara', group: [:development, :test]
 gem 'launchy', group: [:development, :test]

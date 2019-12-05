@@ -11,6 +11,8 @@ class Api::V1::PalettesController < ApplicationController
 
   def create
    palette = Palette.new(palette_params)
+   # this will automatically assign the palette to your first user if there is no current user
+   # if the first user gets deleted, it could break your palette show page
    if current_user
      palette.user = current_user
    else
@@ -26,7 +28,7 @@ class Api::V1::PalettesController < ApplicationController
 
  private
 
-   def palette_params
-      params.require(:palette).permit(:title, :hexcodes => [])
-   end
+ def palette_params
+    params.require(:palette).permit(:title, :hexcodes => [])
  end
+end
