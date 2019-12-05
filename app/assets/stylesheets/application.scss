@@ -16,13 +16,15 @@
 
 */
 .title {
-  padding-top: .25em;
-  font-family: 'Permanent Marker', cursive;
+  padding-top: .5em;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 4em;
 }
 
 .flash {
-  color: yellow;
+  color: red;
+  padding-left: 2em;
+  padding-top: 1em;
 }
 
 a:hover {
@@ -35,12 +37,17 @@ a:hover {
 }
 
 #explore {
-  font-family: 'Century Schoolbook';
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1em;
 }
 
 .left {
   top: 20px;
+}
+
+label {
+  padding-top: 2em;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 h1 {
@@ -52,15 +59,16 @@ h1 {
 a {
   color: white;
   text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-
 body {
-  background-color: #262626;
+  background-color: white;
 }
 
 #header-background {
-  background-image: image-url("colorful-dots.jpg");
+  // background-image: image-url("gradient.jpg");
+  background-color: black;
   background-repeat: no-repeat;
   height: 8em;
   background-size: cover;
@@ -111,6 +119,10 @@ h2 {
   border-color: grey;
 }
 
+.colorTitle {
+  padding-top: 2em;
+}
+
 .show {
   width: 50%;
   height: 55%;
@@ -125,10 +137,11 @@ h2 {
 }
 
 p {
-  color: white;
+  color: black;
   font-size: 16px;
   text-align: center;
-  font-family: 'Avenir Next';
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: .25em;
 }
 
 .description {
@@ -160,7 +173,7 @@ div.actions {
 }
 .review-group {
   color: white;
-  font-family:'Georgia';
+  font-family: 'Josefin Sans', sans-serif;
   margin-left:1em;
 }
 .review-user {

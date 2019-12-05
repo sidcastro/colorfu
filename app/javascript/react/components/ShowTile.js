@@ -6,7 +6,7 @@ const ShowTile = (props) => {
 
   return(
     <div className="show">
-      <p>{props.title}</p>
+      <p className="colorTitle">{props.title}</p>
       <div className="colorShow">
         {hexcodes}
       </div>
