@@ -12,8 +12,8 @@ Since the project has not been run in a while, do the following:
 1. run `gem install bundler`
 
 The follow up with these:
-1. run `rvm install 2.3.6`
-1. run `rvm use 2.3.6`
+1. run `rvm install 2.4.9`
+1. run `rvm use 2.4.9`
 1. run `bundle`
 1. run `rake db:create db:migrate db:seed`
 
