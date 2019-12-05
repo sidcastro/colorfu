@@ -51,7 +51,7 @@ class ColorPicker extends React.Component {
       let colors = this.state.hexcodes;
       let randomColor = colors[Math.floor(Math.random() * colors.length)];
       browserHistory.push('/');
-      $('.app-header').css('color', randomColor);
+      $('#header-background').css('background-color', randomColor);
     })
   }
 
