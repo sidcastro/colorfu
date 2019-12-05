@@ -18,7 +18,6 @@ The follow up with these:
 1. run `rake db:create db:migrate db:seed`
 
 On a different terminal window to set up your frontend, do the following:
-1. run `yarn install`
+1. run `npm install`
     1. If you use nvm, run `nvm use stable` (you can add the nvm version to .nvmrc to save the version to this project and so you can run `nvm use` for next time)
-1. run `yarn run start`
-    1. If you use nvm, run `npm run start`
+1. If you use nvm, run `npm run start`
