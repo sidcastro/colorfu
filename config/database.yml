@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: color_fu_production
-  username: color_fu
-  password: <%= ENV['COLOR_FU_DATABASE_PASSWORD'] %>
+  # username: color_fu
+  # password: <%= ENV['COLOR_FU_DATABASE_PASSWORD'] %>
